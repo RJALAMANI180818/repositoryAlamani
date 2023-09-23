@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prelim</title>
+<!--FOR DARK VARIANT-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    /* background picture */
+    body {
+        background-image: url("bg.jpg");
+    }
+
+    .lead {
+        margin: auto;
+    }
+    .btn-lg{
+        margin: auto;
+    }
+
+    h1 {
+        font-family:'Times New Roman', Times, serif;
+    }
+    h2 {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+        color: #f5f5f5;
+    }
+
+    h3 {
+        font-family: fantasy;
+        padding:2rem;
+        font-size: 25px;
+    }
+    /*outcomes*/
+    h4 {
+        font-family: fantasy;
+        padding: 0rem;
+    }
+
+   h5 {
+    max-width: f;
+   }
+    /*paragraph about cpe*/
+    p {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin:2rem;
+        font-size: 20px;
+    }
+
+    /*Navbar*/
+    .navbar-custom {
+    background-color:#212529;
+    margin: 3.5rem;
+}
+
+.navbar-brand {
+    background-color: gainsboro;
+
+}
+
+    /*margin*/
+    card-group {
+        padding: 4rem;
+    }
+
+    /* space in-between cards */
+    .card {
+        margin:2rem;
+        background-color:#f5f5f5;
+    }
+
+    /*font of cards*/
+    .card-text {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    /*accordion*/
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+    padding: 5rem;
+    background-color: #f5f5f5;
+    display: none;
+    overflow: hidden;
+    }
+
+        /* accord */
+    .accordion {
+    background-color: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    padding: 5rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    }
+
+    #act {
+        padding-left: 2rem;
+    }
+
+
+    /*card-body accordion ito*/
+    h6 {
+        font-family:fantasy;
+        font-size: 25px;
+        padding-left: 4rem;
+    }
+
+</style>
+<body>
+    <div class="container-lg my-4">    
+    
+        <div class="p-5 mb-4 bg-dark text-white rounded-3">
+            <h1>University of the East - Manila</h1>
+            <h2>COMPUTER ENGINEERING</h2>
+            <p class="lead">Admissions are open for STEM and non-STEM students. <a href="https://www.ue.edu.ph/mla/" target="_blank" class="text-white">Tomorrow begins in the East.</p>
+        </div>
+    </div>
+
+    <div class="m-4">
+        <nav class="navbar navbar-custom">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand" style="background-color: #212529; color: #ccc;">Home</a>
+                <a href="#" class="nav-item nav-link" style="background-color: #212529; color: #ccc;">About</a>
+                <a href="#" class="nav-item nav-link" style="background-color: #212529; color: #ccc;">Special Outcomes</a>
+                <a href="#" class="nav-item nav-link" style="background-color: #212529; color: #ccc;">Student Org</a>
+                <a href="#" class="nav-item nav-link disabled" tabindex="-1" style="background-color: #212529; color: #ccc;">Student Organizations</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
+                    </div> -->
+                    <div class="navbar-nav ms-auto">
+                        <a href="https://www.ue.edu.ph/onlineadmission/main.html" class="nav-item nav-link" style="background-color: #212529; color: #ccc; font-weight: bold;">Enroll</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <h6>What is CpE?</h6>
+        <p>A four-year engineering program that embodies  the science and technology of design, development, implementation, maintenance and integration, 
+            of software and hardware components in modern computing systems and computer controlled equipment.</p>
+
+    <div class="m-5">
+        <h3>OUR SPECIALIZATIONS</h3>
+        <div class="card-group">
+            <!--First Card-->
+            <div class="card">
+                <img src="embedded.jpg" class="card-img-top" alt="picOne">
+                <div class="card-body">
+                    <h5 class="card-title">Embedded Systems</h5>
+                    <p class="card-text">An embedded system is a specialized computer system designed to perform dedicated functions or tasks. It is 
+                        typically characterized by their compact size, low power consumption, and integration into a host device, making them well-suited for controlling specific hardware or providing real-time 
+                        functionality in various applications, such as automotive systems, consumer electronics, industrial machinery, and medical devices. </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">University of the East - Manila Campus</small>
+                    
+                </div>
+            </div>
+            
+            <!--Second Card-->
+            <div class="card">
+                <img src="splashFive.jpg" class="card-img-top" alt="picTwo">
+                <div class="card-body">
+                    <h5 class="card-title">Software Development</h5>
+                    <p class="card-text">Software development is the process of designing, creating, and maintaining computer programs and applications. It involves tasks such as coding, testing, debugging, and documentation to produce software that meets specific user or business requirements. 
+                        The goal of software development is to create functional, reliable, and efficient software solutions that address various computing needs and problems.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">University of the East - Manila Campus</small>
+                </div>
+            </div>
+    
+            <!--Third Card-->
+            <div class="card">
+                <img src="networking.jpg" class="card-img-top" alt="picThree">
+                <div class="card-body">
+                    <h5 class="card-title">Computer Networks</h5>
+                    <p class="card-text"> A computer network is a interconnected system of computers and devices that communicate with each other to share resources, information, and services.
+                        Computer networks are fundamental to modern computing, facilitating internet access, file sharing, and the operation of various online services and applications.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">University of the East - Manila Campus</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--WHAT WE DO-->
+    <div class="activity" id="act"; style="padding-left: 2rem;">
+        <h6>Society of Computer Engineers (SCPES), what do we do?</h6>
+        <div class="container-lg my-3">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="background-color: #ccc;">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="lahat.jpg"  height= "800px" width="100px" alt="Angular" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <p>SCPES Family</p>
+                            </div>
+                        </div>
+      
+                        <div class="carousel-item">
+                            <img src="eGames.jpg"  height="800px" width="100px" alt="Angular" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <p>E-games Competition</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="seminar.jpg" 
+                                 height="800px" width="400px" alt="Angular" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <p>Workshops and Seminars</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+
+        <!--Mission Vision-->
+        <div class="card-group" style="padding: 3.4rem;">
+            <!--First Card-->
+            <div class="card">
+                <img src="mission.png" class="card-img-top" alt="picOne">
+                <div class="card-body">
+                    <p class="card-text"> </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">University of the East - Manila Campus</small>
+                    
+                </div>
+            </div>
+            
+            <!--Second Card-->
+            <div class="card">
+                <img src="vision.png" class="card-img-top" alt="picTwo">
+                <div class="card-body">
+                    <p class="card-text"></p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">University of the East - Manila Campus</small>
+                </div>
+            </div>
+
+        <!--Accordion-->
+    <div class="accordion" id="myAccordion"; >
+        <h4>Program Outcomes</h4>
+        <!--Outcome 1-->
+        <div class="accordion-item" style="background-color: gainsboro;">
+            <h2 class="accordion-header" id="headingOne">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Apply knowledge.</button>									
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Apply knowledge of mathematics, science and engineering.</p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 2-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo" >
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Experimentations and design.</button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Design and conduct experiments, as well as to analyze and interpret data.</p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 3-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Design to your imagination.</button>                     
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Design a system,  component or processes to meet desired needs within realistic constraints.</p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 4-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">Team player.</button>                     
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Function on multi-disciplinary teams.
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 5-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">Solve problems.</button>                     
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Identify, formulate and solve engineering problems. </p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 6-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">Professional and ethical.</button>                     
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Have an understanding of professional and ethical responsibilities. </p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 7-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">Communication is the key.</button>                     
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Communicate effectively in both Filipino and English languages. </p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 8-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">Know the current technological events.</button>                     
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Have an understanding of the impact of engineering solutions in a global and societal context. </p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 9-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNine">Long-term learning.</button>                     
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Recognize the need for, and an ability to engage in life-long learning.</p>
+                </div>
+            </div>
+        </div>
+
+         <!--Outcome 10-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">Approach contemporary issues.</button>                     
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                    <h6>Apply knowledge of contemporary issues.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+<!--oo-->
