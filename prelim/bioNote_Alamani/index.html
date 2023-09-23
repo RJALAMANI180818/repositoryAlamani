@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="picture">
+            <!--picture-->
+            <img src="isa.jpg">
+            <div class="socMed">
+                <a href="https://web.facebook.com/me/" class="facebook"><img src="fb logo.png" ></a>
+                
+                <a href="https://www.instagram.com/r.almni/" class="instagram"><img src="ig logo.png" ></a>
+               
+                <a href="https://twitter.com/Starkiller_18" class="twitter"><img src="twt logo.png" ></a>
+        </div>
+        
+
+        </div>
+        <div class="textBox">
+            <h1 id="welcome">Welcome to my Bionote.</h1>
+            <h2 id="name">Ricardo Alamani</h2>
+            <h3 id="course">BSCPE - 3rd Year</h3>
+            <p>Ricardo Alamani or "RJ", born on June 16, 2002. He is a 3rd year, Bachelor of Science in Computer Engineering (BSCpE) student at University
+                of the East - Manila. He is currently the Technical Director of University of the East Jam Sessions (UEJS) Manila. He is also the current 
+            3rd year representative of the Society of Computer Engineering Students (SCPES). He was a consistent honor student during
+            his elementary and high school days at the Pleasant Mount School (PMS). He graduated senior high school at the University of the
+            East - Manila. He is planning to pursue a career at developing and designing user interfaces. He is curently chasing his dreams to be a full pledged Computer Engineer and as a muscian. </p>
+        </div>
+    </div>
+    
+    
+</body>
+    
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /*backgroundPic*/
+    body {
+        display:block;
+        justify-content: center;
+        align-items: center;
+        background-image: url("black.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .wrapper {
+        margin: 100px;
+        position: relative;
+    }
+
+    /*myPicture*/
+    img {
+    max-width: 400px;
+    float: left;
+
+    }
+    #welcome {
+        display: flex;
+        position: absolute;
+        color: #F5F5DC;
+        padding-left: 40rem;
+        padding-top: 1rem;
+        font-size: 40px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    #name {
+        display: flex;
+        position: absolute;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color:#F5F5DC;
+        padding-left: 48rem;
+        padding-top: 5rem;
+    }
+
+    #course {
+        display: flex;
+        position: absolute;
+        font-family: monospace;
+        font-size: 25px;
+        color: #F5F5DC;
+        padding-left: 45rem;
+        padding-top: 7rem;
+    }
+
+    .textBox p {
+        display: flex;
+        position: absolute;
+        color: #F5F5DC;
+        font-size: 20px;
+        float:inline-end;
+        padding-right: 1rem;
+        padding-top: 10rem;
+        padding-left: 100px;
+    }
+
+    .socMed {
+        display: block;
+        margin: 0 auto;
+    }
+    .facebook {
+        display: flex;
+        float: left;
+        padding-top: 560px;
+        position: absolute;
+        left: 60px;
+        width: 60px;
+        height: 60px;
+        max-width: 30%;
+        max-height: 30%;
+        
+    }
+    .twitter {
+        display: flex;
+        float: left;
+        padding-top: 560px;
+        position: absolute;
+        left: 170px;
+        width: 70px;
+        height: 70px;
+        max-width: 30%;
+        max-height: 30%;
+        
+    }
+    .instagram {
+        display: flex;
+        float: left;
+        padding-top: 560px;
+        position: absolute;
+        left: 280px;
+        width: 60px;
+        height: 60px;
+        max-width: 30%;
+        max-height: 30%;
+       
+    } 
+        
+
+
+</style>
+<!-- </head> -->
+
+</body>
+</html>
